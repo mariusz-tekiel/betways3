@@ -1,0 +1,129 @@
+body
+{
+	margin:0;
+	background-color:#26282E;
+	color:#cccc00;
+	font-family: 'Germania One', cursive;
+	font-size:28px;
+}
+a:link     {color: #209781: text-decoration:none; }
+a:visited {color: #209781;}
+a:active  {color: #209781;}
+a:hover   {color: #E9864A;}
+
+h1
+{
+	font-size:64px;
+	font-weight:400;
+	text-align:center;
+	letter-spacing:5px;
+	margin-top:20px;
+	margin-bottom:0px;
+	
+}
+
+.board
+{
+	width: 800px;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	
+}
+
+.card
+{
+	width: 150px;
+	height:190px;
+	display:inline-block;
+	margin:3px;
+	background-image: url("img/karta2.png");
+	border:4px solid #e9b64a;
+	border-radius:8px;
+	cursor:pointer;
+	filter: brightness(70%);
+	transition: all .3s ease-in-out;
+}
+
+.card:hover
+{
+	border:4px solid #ffdf80;
+	filter: brightness(100%);
+}
+
+.cardA
+{
+	width: 150px;
+	height:190px;
+	display:inline-block;
+	margin:3px;
+	background-image: url("img/karta2.png");
+	border:4px solid #ffdf80;
+	border-radius:8px;
+	cursor:default;
+	filter: brightness(100%);
+	transition: all .3s ease-in-out;
+}
+.score
+{
+	margin-top:5px;
+	letter-spacing:2px;
+}
+.banner
+{
+	color:orange;
+	text-align:center;
+}
+
+.banner2
+{
+	display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.button1 {
+	font-family: 'Germania One', cursive;
+	font-size: 22px;
+	color:black;
+	spacing:4px;
+	padding: 8px 20px;
+	  font-weight: bold;
+	background: -moz-linear-gradient(
+		top,
+		#ffffff 0%,
+		#c9ab34 50%,
+		#57461c 50%,
+		#755b1a 65%,
+		#a38923);
+	background: -webkit-gradient(
+		linear, left top, left bottom,
+		from(#ffffff),
+		color-stop(0.50, #c9ab34),
+		color-stop(0.50, #57461c),
+		color-stop(0.65, #755b1a),
+		to(#a38923));
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	border-radius: 10px;
+	border: 1px solid #000000;
+	-moz-box-shadow:
+		0px 1px 3px rgba(000,000,000,0.5),
+		inset 0px 0px 5px rgba(161,142,016,0.6);
+	-webkit-box-shadow:
+		0px 1px 3px rgba(000,000,000,0.5),
+		inset 0px 0px 5px rgba(161,142,016,0.6);
+	box-shadow:
+		0px 1px 3px rgba(000,000,000,0.5),
+		inset 0px 0px 5px rgba(161,142,016,0.6);
+	text-shadow:
+		0px -1px 3px rgba(255,255,255,0.8),
+		0px 1px 0px rgba(255,255,255,0.3);
+	opacity:0.8;	
+}
+.button1:hover
+{
+	opacity:1;
+	cursor:pointer;
+	color:#b33c00;
+}

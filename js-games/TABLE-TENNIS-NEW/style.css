@@ -1,0 +1,86 @@
+body
+{
+   margin:0;
+   padding:0;
+   display:flex;
+   align-items:center;
+   justify-content:center;
+   height:100vh;
+   background-color:darkgray;
+}
+.banner{
+   text-align: top;
+   font-size:34px;
+   align-items:center;   
+   background-color: black;
+   color:white;
+   float:left;
+   /* width: 750px;
+   height: 110px;*/
+   margin-bottom: 10px;
+   position:fixed;
+   top:100px;
+}
+
+canvas{
+   border:3px solid #fff;
+   clear:both;
+}
+.banner
+{
+   color:darkgreen;
+   text-align:center;
+}
+
+.banner2
+{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+.button1 {
+   font-family: 'Germania One', cursive;
+   font-size: 22px;
+   color:black;
+
+   padding: 8px 20px;
+   font-weight: bold;
+   background: -moz-linear-gradient(
+      top,
+      #0cef97 0%,
+      #34a799 50%,
+      #1c5c14 50%,
+      #234818 65%,
+      #238e34);
+   background: -webkit-gradient(
+      linear, left top, left bottom,
+      from(#39e668),
+      color-stop(0.50, #2ce372),
+      color-stop(0.50, #175730),
+      color-stop(0.65, #398e50),
+      to(#36a343));
+   -moz-border-radius: 10px;
+   -webkit-border-radius: 10px;
+   border-radius: 10px;
+   border: 1px solid #000000;
+   -moz-box-shadow:
+      0px 1px 3px rgba(000,000,000,0.5),
+      inset 0px 0px 5px rgba(161,142,016,0.6);
+   -webkit-box-shadow:
+      0px 1px 3px rgba(000,000,000,0.5),
+      inset 0px 0px 5px rgba(161,142,016,0.6);
+   box-shadow:
+      0px 1px 3px rgba(000,000,000,0.5),
+      inset 0px 0px 5px rgba(161,142,016,0.6);
+   text-shadow:
+      0px -1px 3px rgba(255,255,255,0.8),
+      0px 1px 0px rgba(255,255,255,0.3);
+   opacity:0.8;	
+}
+.button1:hover
+{
+   opacity:1;
+   cursor:pointer;
+   color:saddlebrown;
+}

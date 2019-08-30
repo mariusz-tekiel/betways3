@@ -1,0 +1,41 @@
+
+### PROTECT FILES ###
+<FilesMatch "\.(htaccess|htpasswd|ini|fla|psd|log|sh)$">
+Order Allow,Deny
+Deny from all
+</FilesMatch>
+#Przekierowanie na WWW
+Options +FollowSymLinks
+RewriteEngine on
+
+
+
+
+RewriteEngine on
+RewriteRule sport-roulette-betting-systems index.php
+
+
+
+RewriteRule football-betting-system-4matches4bets football-betting-system-4matches4bets.php
+RewriteRule football-betting-system-half-full-time-2bets football-half-full-time.php
+RewriteRule football-betting-system-fortune football-betting-system-fortune.php
+RewriteRule football-betting-system-highest-odds football-betting-highest-odds.php
+
+RewriteRule horse-racing-betting-system-fibonacci horse-racing-fibonacci-system.php
+RewriteRule horse-racing-betting-system-form-last-ran horse-form-last-ran.php
+RewriteRule horse-racing-betting-system-lay-the-loser horse-lay-the-loser.php
+RewriteRule horse-racing-betting-system-favourite horse-racing-favourite.php
+
+RewriteRule roulette-strategy-martingale roulette-strategy-martingale.php
+RewriteRule roulette-strategy-comet roulette-strategy-comet.php
+RewriteRule roulette-strategy-domination roulette-strategy-domination.php
+RewriteRule roulette-strategy-3streets roulette-strategy-3streets.php
+
+RewriteRule tennis-betting-system-favourite tennis-betting-strategy-favourite.php
+RewriteRule tennis-betting-system-fortune tennis-betting-strategy-fortune.php
+RewriteRule tennis-betting-system-follow-the-server tennis-follow-the-server.php
+RewriteRule tennis-betting-system-catch-the-break-point tennis-catch-break-point.php
+
+
+
+RewriteRule about-us-contact about-us-contact.php

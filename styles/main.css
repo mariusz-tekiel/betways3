@@ -1,0 +1,185 @@
+html {
+  height: 100%;
+}
+/*PARTS - DIVS*/
+body {
+  /*   background-image: url("../images/light_grey_floral_motif.png");*/
+  background-image: url("../images/green_cup.png");
+  background-color: #97a294;
+
+  font-family: "Lato", sans-serif;
+  font-size: 14px;
+  margin: 0 !important;
+
+  padding: 0;
+  height: 100%;
+  min-height: 100%;
+  position: relative;
+
+  /* zerujemy domyslne marginesy przegladarki */
+  /* czerwony pasek jext od ucha do ucha */
+  height: 100%;
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+.container {
+  background-color: #c8cec0;
+  margin-left: auto;
+  margin-right: auto;
+  height: 100%;
+}
+/*NAVBAR*/
+nav {
+  background-color: #0c4644;
+  font-size: 18px;
+}
+
+#mainmenu {
+  margin-left: 7%;
+}
+
+.dropdown-menu {
+  background-color: #cfd8c5;
+}
+
+.dropdown-item:hover {
+  background-color: #b7bcb0;
+}
+
+/*TEXT*/
+.container p {
+  margin-top: -30px;
+}
+
+p {
+  text-align: left;
+  width: 95%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 50px;
+  color: #3b2313;
+  font-size: 18px;
+}
+h1 {
+  text-align: center;
+  color: #33402a;
+  font-size: 10px;
+  text-transform: uppercase;
+  box-shadow: 5px 5px 5px #236551, -5px -5px 5px #236551;
+
+  margin: 0px 0px 0px 0px;
+  padding: 0px 0px 0px 0px;
+}
+
+h2 {
+  text-align: center;
+  color: black;
+  text-transform: uppercase;
+  margin: 0px 0px 0px 0px;
+  padding: 0px 0px 0px 0px;
+}
+
+h4 {
+  text-align: center;
+  color: #33402a;
+}
+
+h5 {
+  text-align: center;
+}
+ol {
+  /*   color:#5e6414;*/
+  font-size: 18px;
+}
+ol li {
+  padding: 12px;
+}
+p.aboutUs {
+  font-family: "Dancing Script", cursive;
+  font-size: 30px;
+  font-weight: bold;
+}
+p.contact {
+  font-family: "Dancing Script", cursive;
+  font-weight: bold;
+  font-size: 30px;
+  text-align: center;
+  color: #232eac;
+}
+
+/*IMAGES*/
+.home-pic {
+  display: block;
+  margin: 15px;
+  border: 7px solid #5d806a;
+  padding: 0px;
+  border-radius: 10px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.home-pic-index {
+  display: block;
+  border: 5px solid #5d806a;
+  border-radius: 15px;
+  padding: 3px;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+figcaption {
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 12px;
+  color: #0d3c3b;
+}
+
+.bigger {
+  font-size: 16px;
+}
+.index-pictures {
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 12px;
+  color: #0d3c3b;
+  border: 1px groove #5d806a;
+  border-radius: 15px;
+}
+
+#pic-index {
+  margin: 15px;
+  border-radius: 15px;
+  color: black;
+}
+a {
+  color: #317728;
+  font-weight: bold;
+}
+a:hover {
+  color: #8d2aa5;
+}
+header p {
+  text-align: justify;
+}
+
+.site-footer {
+  background-color: #0c4644;
+  color: #61ad7b;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  text-align: center;
+}
+footer .container {
+  background-color: #0c4644;
+}
+
+#slider {
+  width: 40%px;
+  height: 20%;
+}
+.ui-slider .ui-slider-handle {
+  height: 15px;
+  width: 5px;
+  padding-left: 5px; //add this
+}
