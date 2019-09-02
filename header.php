@@ -136,7 +136,7 @@
 
                         <div class="dropdown-divider"></div>
 
-                        <a class="dropdown-item" href="js-games\TABLE-TENNIS-NEW\tennis_index.html"> Table Tennis JS+Canvas - in progress</a>
+                        <a class="dropdown-item" href="js-games\TABLE-TENNIS-NEW\tennis_index.html"> Table Tennis</a>
                         <a class="dropdown-item disabled" href="">Pinguins JS+Canvas- in progress</a>
 
                      </div>
