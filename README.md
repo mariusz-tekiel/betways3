@@ -10,4 +10,4 @@
 </ul> </h2>
 </p>
 <br>
-<h4>PLAY >>   http://betways.site</h4>
+<h4>GO TO WEBSITE >>   http://betways.site</h4>
