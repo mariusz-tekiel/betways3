@@ -3,7 +3,7 @@
      <div class="container">   
        <div class="row">
             <div class="col-md-4">
-              www.betways.co.uk &copy; my website 
+              www.betways.site &copyright 2018 Mariusz Tekiel;  
               <br/>
               Icons come from Freepik from www.flaticon.com 
               <br>
@@ -13,7 +13,7 @@
               <br> Some gifs come from https://wifflegif.com
             </div>   
          <div class="col-md-4">
-           Contact 777betways@gmail.com
+           Contact viajador777@gmail.com
            <br> Thank you for your attention
          </div>    
        </div>
