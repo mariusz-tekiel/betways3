@@ -34,7 +34,7 @@ $aboutUs="active";
           <p class="aboutUs">Kind Regards, Authors.</p>
 
          
-          <p class="contact">Contact: 777betways@gmail.com </p>
+          <p class="contact">Contact: viajador777@gmail.com </p>
         
         </article>
       </div>

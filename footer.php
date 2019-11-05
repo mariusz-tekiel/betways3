@@ -3,18 +3,19 @@
      <div class="container">   
        <div class="row">
             <div class="col-md-4">
-               &copy Copyright betways.site 2018 MT-kiel;  
+                Gifs made by www.freegifmaker.me  
               <br/>
               Icons come from Freepik from www.flaticon.com 
               <br>
             </div>       
             <div class="col-md-4">
-              Gifs made by www.freegifmaker.me
-              <br> Some gifs come from https://wifflegif.com
+              &copy 2018 betways.site MT-kiel;
+              
+              <br> Contact viajador777@gmail.com
             </div>   
          <div class="col-md-4">
-           Contact viajador777@gmail.com
-           <br> Thank you for your attention
+           Some gifs come from https://wifflegif.com
+           <br> Thank you for visiting our website
          </div>    
        </div>
        
