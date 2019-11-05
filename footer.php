@@ -3,7 +3,7 @@
      <div class="container">   
        <div class="row">
             <div class="col-md-4">
-              www.betways.site &copyright 2018 Mariusz Tekiel;  
+               &copyright betways.site 2018 MT-kiel;  
               <br/>
               Icons come from Freepik from www.flaticon.com 
               <br>

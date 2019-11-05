@@ -109,7 +109,6 @@
 						</li>
 
 
-
 					  <li class="nav-item dropdown <?php echo $tennis ?>">
 							<a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" role="button" id="submenu" aria-haspopup="true">Tennis</a>
 
