@@ -31,8 +31,15 @@
                <figure>
                   <img id="home-pic1" class="home-pic-index" src="images/index-football.jpg" alt="football match small photo" height="180" width="80%" >
                   <br>
-                 <figcaption class="index-pictures"> "The margin is very marginal".<br> ―Sir Bobby Robson.
-                   <br>"Julian Dicks is everywhere. It's like they have eleven Dicks on the field."<br> ―A commentator on Metro Radio.</figcaption>
+                 <figcaption class="index-pictures">
+                 <blockquote>
+    "The margin is very marginal".
+    <footer> ―Sir Bobby Robson. </footer>
+    "Julian Dicks is everywhere. It's like they have eleven Dicks on the field."
+    <footer> ―A commentator on Metro Radio. </footer>
+</blockquote>
+                 
+                 </figcaption>
                </figure>
             </div>  
                
