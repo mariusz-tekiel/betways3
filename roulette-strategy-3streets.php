@@ -25,7 +25,7 @@ $roulette="active";
 
         <p>
           The Three Streets is a very interesting system and not difficult to learn. However, it requires some practice. 
-          <a href="https://www.skyvegas.com/?aff=1197317075&open=login" target="_blank">Sky vegas roulette</a> let us you play starting from 1 penny as a minimal spin-bet. It is really good place to test our strategies not spending too much money. We must divide our roulette table by 3 dozens. We will play betting on only 1 street withing every dozen.</p>
+          <a href="https://www.skyvegas.com/?aff=1197317075&open=login" target="_blank">Sky vegas roulette</a> let us play starting from 1 penny as a minimal spin-bet. It is really good place to test our strategies not spending too much money. We must divide our roulette table by 3 dozens. We will play betting on only 1 street withing every dozen.</p>
 
         <ol>
           <li> EXAMPLE: We watch roulette and check what has fallen out. Came up 14 (within 2nd 12). So we bet £1 on street - 13, 14, 15.
