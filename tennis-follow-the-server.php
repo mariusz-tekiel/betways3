@@ -7,7 +7,6 @@ $tennis="active";
 
 <?php require_once( 'header.php' ); ?>
 
-
 <body>
   <main>
     <article>

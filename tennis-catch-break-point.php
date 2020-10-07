@@ -14,7 +14,6 @@ $tennis="active";
       <div class="container">
         <header>
           <br>
-
           <h1>
             <font size="5">CATCH THE BREAK POINT</font>
           </h1>
@@ -69,7 +68,6 @@ $tennis="active";
               <div class="col-sm-12 col-md-8 col-xl-6 mx-auto">
                 <figure>
                   <img id="ftb-fort1" class="home-pic" src="images/tennis-break-point-board4.PNG" alt="tennis betting strategy catch break point" height="280" width="100%">
-
                 </figure>
               </div>
             </div>
@@ -83,8 +81,7 @@ $tennis="active";
                 </figure>
               </div>
             </div>
-          </li>
-          
+          </li>       
           
           <li>
             SUMMARY: Catch the Break Point strategy is one the most exiting betting strategies. Unfortunately, it requires a lot of time and access to live broadcast. If we have these two things, and in addition we are fans of tennis, we can spend time very emotionally. 
@@ -99,9 +96,7 @@ $tennis="active";
               </aside>
             </div>
           </div>
-
         </ol>
-
       </div>
     </article>
   </main>

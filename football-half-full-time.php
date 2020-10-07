@@ -1,24 +1,16 @@
 <?php 
-$title = "HALF TIME / FULL TIME 2 BETS - FOOTBALL BETTING SYSTEM #2";
-
-$football="active";   
-
+   $title = "HALF TIME / FULL TIME 2 BETS - FOOTBALL BETTING SYSTEM #2";
+   $football="active";   
 ?>
 
 <?php require_once( 'header.php' ); ?>
-
-
 <body>
-
-
    <main>
       <article>
          <!--   <div class="container-fluid text-center text-md-left">-->
          <div class="container">
-
             <header>
                <br>
-
                <h1>
                   <font size="5">HALF TIME / FULL TIME - 2 BETS</font>
                </h1>
@@ -26,11 +18,7 @@ $football="active";
                   <font size="3">FOOTBALL BETTING SYSTEM #2</font>
                </h2>
             </header>
-
             <p>Another system we would like to present uses Half Time / Full Time bets.  </p>
-
-
-
 
             <ol>
                <li> First of all, we should review statistical data on individual leagues. The table bellow shows the results we collected. I remind you that the data can change after each league match. It's good to use the latest data.

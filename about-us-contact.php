@@ -1,12 +1,9 @@
 <?php 
-$title = "ABOUT US";
-
-$aboutUs="active";   
-
+  $title = "ABOUT US";
+  $aboutUs="active";   
 ?>
 
 <?php require_once( 'header.php' ); ?>
-
 
 <body>
   <main>
@@ -31,9 +28,7 @@ $aboutUs="active";
             </div>
           </div>
           <p class="aboutUs">We assess the chances of individual sports events based on the history of games and computer simulations. We try to objectively evaluate the systems described, although we realize that there are no 100% effective methods to assess them. There are too many internal and external factors that can determine the final result. That is why we love sports, for its unpredictability. The only thing you can do is most accurately how to assess all possibilities and choose the one that we think will happen.</p>
-          <p class="aboutUs">Kind Regards, Authors.</p>
-
-         
+          <p class="aboutUs">Kind Regards, Authors.</p>         
           <p class="contact">Contact: viajador777@gmail.com </p>
         
         </article>

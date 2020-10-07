@@ -16,9 +16,6 @@
 	<title>Betways Winning Sport Betting Strategies</title>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
-
-
-
 	<meta name="description" content="Website with description of low risk betting systems. Learn how to earn money sitting in your armchair." />
 	<meta name="Author" content="Mariusz Tekiel" />
 	<meta name="keywords" content="bet, betting, systems, roulette, horse, racing, football, soccer, tennis, probability, cash out, hobby, gambling, win, fortune" />
@@ -33,7 +30,7 @@
   <link href="https://fonts.googleapis.com/css?family=Dancing+Script" rel="stylesheet">
 
 		<script type="text/javascript" src="js/slider.js"></script>
-		
+
 </head>
 
 <body onload="changeSlide()">
@@ -41,7 +38,7 @@
 	<div id="wrap">
 
 		<header id="header" class="sticky-top">
-			
+
 			<nav class="navbar navbar-dark bg-jumpers navbar-expand-lg navbar-inverse" ata-spy="affix" data-offset-top="197">
 				<a class="navbar-brand" href="#"><img src="images/logo.png" width="30" height="30" class="d-inline-block mr-1 align-bottom" alt="logo horse"> <span style="color:#3ed6bf">BET</span>WAYS
 					<div style="clear:both"></div></a>
@@ -135,12 +132,12 @@
 
 								<div class="dropdown-divider"></div>
 
-								<a class="dropdown-item" href="js-games\TABLE-TENNIS-NEW\tennis_index.html"> Table Tennis</a>
-								<a class="dropdown-item disabled" href="">Pinguins JS+Canvas- in progress</a>
+								<a class="dropdown-item" href="js-games\TABLE-TENNIS-NEW\tennis_index.html">Table Tennis</a>
+								<a class="dropdown-item" href="js-games\slot-machine\index.html">Slot Machine - simulation</a>
 
 							</div>
 
-						</li>   
+						</li>
 					  <li class="nav-item <?php echo $aboutUs ?>">
 							<a class="nav-link" href="about-us-contact">About Us</a>
 						</li>
