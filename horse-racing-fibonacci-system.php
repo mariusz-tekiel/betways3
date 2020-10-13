@@ -1,52 +1,36 @@
 <?php 
-$title = "FIBONACCI - HORSE RACING SYSTEM #1";
-
-$horseRacing="active";   
-
+  $title = "FIBONACCI - HORSE RACING SYSTEM #1";
+  $horseRacing="active";   
+  require_once( 'header.php' );
 ?>
-
-<?php require_once( 'header.php' ); ?>
-
-
-<body>
-
-
-  <main>
-    <article>
-
-      <div class="container">
-
-        <header>
-          <br>
-
-          <h1>
-            <font size="5">fibonacci</font>
-          </h1>
-          <h2>
-            <font size="3">Horse racing betting system #1</font>
-          </h2>
-        </header>
-
+<main>
+  <article>
+    <div class="container">
+      <header>
+        <br>
+        <h1>
+          <font size="5">fibonacci</font>
+        </h1>
+        <h2>
+          <font size="3">Horse racing betting system #1</font>
+        </h2>
+      </header>
         <p>This is one of the simplest and most effective horse racing betting systems . It doesn't require any knowledge about horses. All we need we can find on race card provided by online bookmaker.</p>
         <ol>
           <li>We click on the list of horses starting in the race and we sort odds increasing. We choose the lowest one, that is, we bet on 1st favorite. When the odd of 1st Favourite is less then 2 (1/1) there is no sense to play. Please jump to the next race. 
-
-            <div class="row">
+           <div class="row">
               <div class="col-sm-12 col-md-8 col-xl-6 mx-auto">
                 <figure>
                   <img id="ftb-fort1" class="home-pic" src="images/horse-racing-fibonacci-board.PNG" alt="horse racing fibonacci board" height="360px" width="100%">
                   <figcaption>Every racing card contains abbreviations not very clear for begginers. We can check them clicking on  <a href="https://mrfixitstips.co.uk/masterclass/masterclass-how-to-reading-a-horse-racing-racecard/" target="_blank">horse racing - race card</a> or watch very professional and friendly video named <a href="https://www.youtube.com/watch?v=JDneOyXOrSY" target="_blank">How to Read a Race Card</a></figcaption>
                 </figure>
               </div>
-            </div>
+           </div>
           </li>
-
           <li>Please choose a short race (maximum 1 mile) for this system. As you can see our race has 5f8y - 5 furlongs and 8 yards which is less then 1 mile (1 mile = 8 furlongs).
           </li>
-
           <li>The way to bet is based on few expressions of the Fibonacci sequence. For our purposes we use the following expressions - 1, 1, 2, 3, 5, 8, 13. 
           </li>
-          
           <li> <strong>EXAMPLE: </strong>Our example includes 4 consecutive days of sports betting. We have £ 100 of capital and we start the game from the first bet, that is 1. Because we want to make game more exciting, we multiply stakes by 10. 
             <ul>
               <li><strong>1st DAY:</strong> <br> 1st RACE:  We bet £ 10 on the horse Dr Doro with number 6. <br>We lost.</li>
@@ -81,15 +65,12 @@ $horseRacing="active";
                   <figcaption>...</figcaption>
                 </figure>
               </div>
-            </div>
-            
-          </li>
-          
+            </div>            
+          </li>          
           <li>
             SUMMARY: Personally, I was a great enthusiast of this system. His simplicity, short time of betting and regular profits cause that we quickly become dependent on him. Once I managed to get a monthly profit of more than 2,000%. I had the impression that I had discovered a gold mine.
            Unfortunately, the reality was very brutal with me. Although the good trend was reversed, I continued the game. It is not difficult to guess that I quickly lost my profit. 
-            If I can advise you. Use this system for not more than 4, 5 days in row by placing up to 6 races a day. Then make a minimum weekly break or longer. It will save you many unnecessary troubles.
-               
+            If I can advise you. Use this system for not more than 4, 5 days in row by placing up to 6 races a day. Then make a minimum weekly break or longer. It will save you many unnecessary troubles.               
           </li>
           <div class="row" align="center">
             <div class="col-sm-12 col-md-8 col-xl-8 mx-auto">
@@ -100,11 +81,9 @@ $horseRacing="active";
               </aside>
             </div>
           </div>
-
         </ol>
-
       </div>
     </article>
-  </main>
+</main>
 
-  <?php require_once( 'footer.php' ); ?>
+<?php require_once( 'footer.php' ); ?>
