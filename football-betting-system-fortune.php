@@ -1,24 +1,14 @@
 <?php 
-$title = "FORTUNE - FOOTBALL BETTING SYSTEM #3";
-
-$football="active";   
-
+   $title = "FORTUNE - FOOTBALL BETTING SYSTEM #3";
+   $football="active";   
+   //header.php contains opening BODY tag
+   require_once( 'header.php' );  
 ?>
-
-<?php require_once( 'header.php' ); ?>
-
-
-<body>
-
-
  <main>
-  <article>
-        
+  <article>        
      <div class="container">
-
        <header>
           <br>
-
           <h1>
              <font size="5">FORTUNE</font>
           </h1>
@@ -26,11 +16,9 @@ $football="active";
              <font size="3">FOOTBALL BETTING SYSTEM #3</font>
           </h2>
        </header>
-
        <p>Fortune system does not require great football knowledge and brings quite interesting results. The method of betting may seem troublesome at first, but with some experience it is not a problem.</p>
        <ol>
          <li> We choose 5 football matches. We try to find odds on Home win within the range 1.5 - 1.9
-
              <div class="row">
                 <div class="col-sm-12 col-md-8 col-xl-6 mx-auto">
                    <figure>
@@ -39,8 +27,7 @@ $football="active";
                    </figure>
                 </div>
              </div>
-          </li>
-
+         </li>
          <li>We place 6 bets according to the table below.
 
              <div class="row">
@@ -52,13 +39,11 @@ $football="active";
                    </figure>
                 </div>
              </div>
-          </li>
-
-           <li>Please do not choose friendly matches or not prestigious leagues. </li>
-
-          <li>
+         </li>
+         <li>Please do not choose friendly matches or not prestigious leagues. </li>
+         <li>
                 EXAMPLE: We put £1 for every singular bet, so spend £6. We can use Martingale progressions - 1, 2, 4, 8, 16 ... The average frequency of wins is about 1/5. Here is a list of several games played with this system. 
-                
+               
                 <div class="row">
                    <div class="col-sm-12 col-md-8 col-xl-6 mx-auto">
                       <figure>
@@ -67,10 +52,8 @@ $football="active";
                       </figure>
                    </div>
                 </div>
-           </li>
-
+         </li>
          <li>The system only goes below zero for the first 4 games. Then he stays firmly above.
-
              <div class="row">
                 <div class="col-sm-12 col-md-8 col-xl-6 mx-auto">
                    <figure>
@@ -79,12 +62,11 @@ $football="active";
                    </figure>
                 </div>
              </div>
-        </li>
-
-          <li>
+         </li>
+         <li>
             SUMMARY: As you can see the Fortune system is quite profitable. As with every system, it has its weak points, so it's best to start with low rates.
             
-          </li>
+         </li>
          <div class="row" align="center">
            <div class="col-sm-12 col-md-8 col-xl-8 mx-auto">
              <aside>
@@ -94,11 +76,9 @@ $football="active";
             </aside>
            </div>  
          </div>
-         
-       </ol>
-      
+       </ol>      
   </div>
  </article>
 </main>
 
-   <?php require_once( 'footer.php' ); ?>
+<? php require_once( 'footer.php' ); ?>

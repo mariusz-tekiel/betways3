@@ -4,7 +4,6 @@
 ?>
 
 <?php require_once( 'header.php' ); ?>
-<body>
    <main>
       <article>
          <!--   <div class="container-fluid text-center text-md-left">-->
