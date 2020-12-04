@@ -98,7 +98,7 @@
 								<a class="dropdown-item" href="js-games\MEMORY-TEST-GAME\game.html">Memory test</a>
 								<div class="dropdown-divider"></div>
 								<a class="dropdown-item" href="js-games\TABLE-TENNIS-NEW\tennis_index.html">Table Tennis</a>
-								<a class="dropdown-item" href="js-games\slot-machine\index.html">Slot Machine - simulation</a>
+								<a class="dropdown-item" href="js-games\SlotMachine\index.html">Slot Machine - simulation</a>
 							</div>
 						</li>
 					  <li class="nav-item <?php echo $aboutUs ?>">
