@@ -1,17 +1,10 @@
 <?php 
-$title = "LAY THE LOOSER - Horse racing betting system #3";
-
-$horseRacing="active";   
-
+  $title = "LAY THE LOOSER - Horse racing betting system #3";
+  $horseRacing="active";   
+  require_once( 'header.php' );
 ?>
-
-<?php require_once( 'header.php' ); ?>
-
-
-<body>
-  <main>
+<main>
     <article>
-
       <div class="container">
 
         <header>

@@ -1,24 +1,15 @@
 <?php 
-$title = "FORM LAST RAN - Horse racing betting system #2";
-
-$horseRacing="active";   
-
+  $title = "FORM LAST RAN - Horse racing betting system #2";
+  $horseRacing="active";   
+  require_once( 'header.php' );
 ?>
 
-<?php require_once( 'header.php' ); ?>
-
-
 <body>
-
-
   <main>
     <article>
-
       <div class="container">
-
         <header>
           <br>
-
           <h1>
             <font size="5">FORM LAST RAN</font>
           </h1>

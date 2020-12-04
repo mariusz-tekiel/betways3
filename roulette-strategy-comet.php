@@ -1,11 +1,8 @@
 <?php 
-$title = "COMET - ROULETTE STRATEGY #2";
-
-$roulette="active";   
-
+  $title = "COMET - ROULETTE STRATEGY #2";
+  $roulette="active";   
+  require_once( 'header.php' );
 ?>
-
-<?php require_once( 'header.php' ); ?>
 <body>
   <main>
     <article>
@@ -19,7 +16,6 @@ $roulette="active";
             <font size="3">ROULETTE STRATEGY #2</font>
           </h2>
         </header>
-
         <p>
           Comet is recommended for people who want to play only few spins on roulette. It is a little predictable system, but with a bit of luck it can positively surprise us. All our simulations were tested on <a href="https://www.skyvegas.com/?aff=1197317075&open=login" target="_blank">sky vegas roulette</a>.  </p>
           

@@ -1,31 +1,19 @@
 <?php 
-$title = "4 MATCHES 4 BETS - FOOTBALL BETTING SYSTEM #1";
-   
-$football="active";   
-   
+   $title = "4 MATCHES 4 BETS - FOOTBALL BETTING SYSTEM #1";   
+   $football="active";      
+   require_once( 'header.php' );
 ?>
 
-<?php require_once( 'header.php' ); ?>
- 
-
-<body>
- 
- 
 <main>
 <article>
-   <!--   <div class="container-fluid text-center text-md-left">-->
    <div class="container">
-
-   <header>
-      <br>
-
-      <h1><font size="5">4 MATCHES 4 BETS</font></h1>
-      <h2><font size="3">FOOTBALL BETTING SYSTEM #1</font></h2>
-   </header>   
-     <p>This is very nice and quite effective system. If we use it in right way we can win nice money. We usually use <a href="https://www.bet365.com/#/HO/"  target="_blank">Bet365</a> to place bet of this kind, but you can use any other online bookmaker you know.  </p>       
-          
-     
-         
+      <header>
+         <br>
+         <h1><font size="5">4 MATCHES 4 BETS</font></h1>
+         <h2><font size="3">FOOTBALL BETTING SYSTEM #1</font></h2>
+      </header>   
+      <p>This is very nice and quite effective system. If we use it in right way we can win nice money. We usually use <a href="https://www.bet365.com/#/HO/"  target="_blank">Bet365</a> to place bet of this kind, but you can use any other online bookmaker you know.  </p>       
+      
          <ol>
             <li> We choose 3 football matches with odds on Home win between 2 and 2.5 (1/1 and 1.5/2) + 1 match on draw 3 to 3.5 (2/1 to 2.5/1). Selecting draw match it is always good to see statistics. If teams haven't had draw in last 10 matches plaing to each other, there is no point to bet on them.
                <div class="row">  
@@ -78,7 +66,7 @@ $football="active";
                </div>
    
             </li>
-   <aside>
+          <aside>
           <div class="row" align="center">
              <div class="col-sm-12 col-md-12 col-xl-8 mx-auto">
                
@@ -88,7 +76,7 @@ $football="active";
                
              </div>  
            </div>
-  </aside>       
+          </aside>       
          </ol>
       
     </div>

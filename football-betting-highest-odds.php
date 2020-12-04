@@ -1,8 +1,6 @@
 <?php 
-$title = "HIGHEST ODDS - FOOTBALL BETTING SYSTEM #4";
-
-$football="active";   
-
+  $title = "HIGHEST ODDS - FOOTBALL BETTING SYSTEM #4";
+  $football="active";   
 ?>
 
 <?php require_once( 'header.php' ); ?>
