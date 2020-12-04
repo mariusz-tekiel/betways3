@@ -68,7 +68,7 @@
             </div>            
           </li>          
           <li>
-            SUMMARY: Personally, I was a great enthusiast of this system. His simplicity, short time of betting and regular profits cause that we quickly become dependent on him. Once I managed to get a monthly profit of more than 2,000%. I had the impression that I had discovered a gold mine.
+            SUMMARY: Personally, I was a great enthusiast of this system. It's simplicity, short time of betting and regular profits cause that we quickly become dependent on him. Once I managed to get a monthly profit of more than 2,000%. I had the impression that I had discovered a gold mine.
            Unfortunately, the reality was very brutal with me. Although the good trend was reversed, I continued the game. It is not difficult to guess that I quickly lost my profit. 
             If I can advise you. Use this system for not more than 4, 5 days in row by placing up to 6 races a day. Then make a minimum weekly break or longer. It will save you many unnecessary troubles.               
           </li>

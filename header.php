@@ -34,10 +34,10 @@
 
 		<header id="header" class="sticky-top">
 			<nav class="navbar navbar-dark bg-jumpers navbar-expand-lg navbar-inverse" ata-spy="affix" data-offset-top="197">
-				<a class="navbar-brand" href="#"><img src="images/logo.png" width="30" height="30" class="d-inline-block mr-1 align-bottom" alt="logo horse"> <span style="color:#3ed6bf">BET</span>WAYS
+				<a class="navbar-brand" href="index"><img src="images/logo.png" width="30" height="30" class="d-inline-block mr-1 align-bottom" alt="logo horse"> <span style="color:#3ed6bf">BET</span>WAYS
 					<div style="clear:both"></div></a>
 
-				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#mainmenu" aria-controls="mainmenu" aria-expanded="false" aria-label="Przelacznik aplikacji">
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#mainmenu" aria-controls="mainmenu" aria-expanded="false" aria-label="Application toggle">
 					<span class="navbar-toggler-icon"></span>
 				</button>
 
@@ -54,7 +54,7 @@
 									<a class="dropdown-item" href="football-half-full-time"> Half/Full Time 2 bets</a>
 									<div class="dropdown-divider"></div>
 									<a class="dropdown-item" href="football-betting-system-fortune"> Fortune</a>
-									<a class="dropdown-item" href="football-betting-system-highest-odds.php">Highest Odds</a>
+									<a class="dropdown-item" href="football-betting-highest-odds">Highest Odds</a>
 								</div>
 						</li>
 
