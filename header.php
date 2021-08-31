@@ -4,29 +4,29 @@
 <html lang="eng">
 
 <head>
-		<!-- Global site tag (gtag.js) - Google Analytics -->
-		<script async src="https://www.googletagmanager.com/gtag/js?id=UA-129157358-1"></script>
-		<script>
-			window.dataLayer = window.dataLayer || [];
-				function gtag(){dataLayer.push(arguments);}
-				gtag('js', new Date());
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-129157358-1"></script>
+	<script>
+		window.dataLayer = window.dataLayer || [];
+			function gtag(){dataLayer.push(arguments);}
+			gtag('js', new Date());
 
-				gtag('config', 'UA-129157358-1');
-		</script>
-		<title>Betways Winning Sport Betting Strategies</title>
-		<meta charset="utf-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
-		<meta name="description" content="Website with description of low risk betting systems. Learn how to earn money sitting in your armchair." />
-		<meta name="Author" content="Mariusz Tekiel" />
-		<meta name="keywords" content="bet, betting, systems, roulette, horse, racing, football, soccer, tennis, probability, cash out, hobby, gambling, win, fortune" />
-		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+			gtag('config', 'UA-129157358-1');
+	</script>
+	<title>Betways Winning Sport Betting Strategies</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+	<meta name="description" content="Website with description of low risk betting systems. Learn how to earn money sitting in your armchair." />
+	<meta name="Author" content="Mariusz Tekiel" />
+	<meta name="keywords" content="bet, betting, systems, roulette, horse, racing, football, soccer, tennis, probability, cash out, hobby, gambling, win, fortune" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
 
-		<link rel="stylesheet" href="styles/bootstrap.min.css" />
-		<link rel="stylesheet" href="styles/main.css" type="text/css" />
-		<link rel="Shortcut icon" href="images/logo.png" />
-		<link href="https://fonts.googleapis.com/css?family=Lato:400,700&amp;subset=latin-ext" rel="stylesheet">
-		<link href="https://fonts.googleapis.com/css?family=Dancing+Script" rel="stylesheet">
-		<script type="text/javascript" src="js/slider.js"></script>
+	<link rel="stylesheet" href="styles/bootstrap.min.css" />
+	<link rel="stylesheet" href="styles/main.css" type="text/css" />
+	<link rel="Shortcut icon" href="images/logo.png" />
+	<link href="https://fonts.googleapis.com/css?family=Lato:400,700&amp;subset=latin-ext" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Dancing+Script" rel="stylesheet">
+	<script type="text/javascript" src="js/slider.js"></script>
 
 </head>
 <body onload="changeSlide()">
