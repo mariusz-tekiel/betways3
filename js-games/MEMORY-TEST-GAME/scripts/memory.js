@@ -23,6 +23,8 @@ var pairsLeft = 6;
 
 var pairFound = new Audio("sound/yes.wav");
 var win1 = new Audio("sound/win1.wav");
+var loss = new Audio("sound/looser_fanfare.wav");
+var loss2 = new Audio("sound/terrible_fanfare.wav");
 
 function shuffle(array) {
   var currentIndex = array.length,
@@ -45,98 +47,68 @@ function shuffle(array) {
 }
 
 cards = shuffle(cards);
-//console.log(cards);
 
-var c0 = document.getElementById("c0");
-var c1 = document.getElementById("c1");
-var c2 = document.getElementById("c2");
-var c3 = document.getElementById("c3");
+//declaration of variables - c0, c1...c11
+for(i=0; i<12; i++){
+	cn = "c"+i;	
+	var cn = document.getElementById("c"+i);	
+}
 
-var c4 = document.getElementById("c4");
-var c5 = document.getElementById("c5");
-var c6 = document.getElementById("c6");
-var c7 = document.getElementById("c7");
+c0.addEventListener("click", function() { revealCard(0); });
+c1.addEventListener("click", function() { revealCard(1); });
+c2.addEventListener("click", function() { revealCard(2); });
+c3.addEventListener("click", function() { revealCard(3); });
 
-var c8 = document.getElementById("c8");
-var c9 = document.getElementById("c9");
-var c10 = document.getElementById("c10");
-var c11 = document.getElementById("c11");
+c4.addEventListener("click", function() { revealCard(4); });
+c5.addEventListener("click", function() { revealCard(5); });
+c6.addEventListener("click", function() { revealCard(6); });
+c7.addEventListener("click", function() { revealCard(7); });
 
-c0.addEventListener("click", function() {
-  revealCard(0);
-});
-c1.addEventListener("click", function() {
-  revealCard(1);
-});
-c2.addEventListener("click", function() {
-  revealCard(2);
-});
-c3.addEventListener("click", function() {
-  revealCard(3);
-});
+c8.addEventListener("click", function() { revealCard(8); });
+c9.addEventListener("click", function() { revealCard(9); });
+c10.addEventListener("click", function() { revealCard(10); });
+c11.addEventListener("click", function() { revealCard(11); });
 
-c4.addEventListener("click", function() {
-  revealCard(4);
-});
-c5.addEventListener("click", function() {
-  revealCard(5);
-});
-c6.addEventListener("click", function() {
-  revealCard(6);
-});
-c7.addEventListener("click", function() {
-  revealCard(7);
-});
 
-c8.addEventListener("click", function() {
-  revealCard(8);
-});
-c9.addEventListener("click", function() {
-  revealCard(9);
-});
-c10.addEventListener("click", function() {
-  revealCard(10);
-});
-c11.addEventListener("click", function() {
-  revealCard(11);
-});
 
 function revealCard(nr) {
-  var opacityValue = $("#c" + nr).css("opacity");
+  	var opacityValue = $("#c" + nr).css("opacity");
 
-  if (opacityValue != 0 && lock == false) {
-    lock = true;
-    var obraz = "url(img/" + cards[nr] + ")";
+	if (opacityValue != 0 && lock == false) {
+		lock = true;
+		var obraz = "url(img/" + cards[nr] + ")";
 
-    $("#c" + nr).css("background-image", obraz);
-    $("#c" + nr).addClass("cardA");
-    $("#c" + nr).removeClass("card");
-    //$('#c'+nr).toggleClass('cardA');
+		$("#c" + nr).css("background-image", obraz);
+		$("#c" + nr).addClass("cardA");
+		$("#c" + nr).removeClass("card");
+		//$('#c'+nr).toggleClass('cardA');
 
-    if (oneVisible == false) {
-      //first card
-      oneVisible = true;
-      visible_nr = nr;
-      lock = false;
-    } else {
-      //second card
-      if (cards[visible_nr] == cards[nr] && visible_nr != nr) {
-        //alert("pair found");
-        setTimeout(function() {
-          hide2Cards(nr, visible_nr);
-        }, 750);
-        pairFound.play();
-      } else {
-        //alert("missed");
-        setTimeout(function() {
-          restore2Cards(nr, visible_nr);
-        }, 750);
-      }
-      turnCounter++;
-      $(".score").html("Turn counter: " + turnCounter);
-      oneVisible = false;
-    }
-  }
+		if (oneVisible == false) {
+			//first card
+			oneVisible = true;
+			visible_nr = nr;
+			lock = false;
+		} else {
+
+			//second card
+			if (cards[visible_nr] == cards[nr] && visible_nr != nr) {
+				//alert("pair found");
+				setTimeout(function() {
+				hide2Cards(nr, visible_nr);
+				}, 750);
+				pairFound.play();
+			} else {
+				//alert("missed");
+				setTimeout(function() {
+				restore2Cards(nr, visible_nr);
+				}, 750);
+			}
+
+			turnCounter++;
+			$(".score").html("Turn counter: " + turnCounter);
+			oneVisible = false;
+		}
+	}
 }
 
 //Function checking if revealed cards are pair
@@ -147,35 +119,35 @@ function hide2Cards(nr1, nr2) {
   pairsLeft--;
 
   if (pairsLeft == 0) {
-    $(".board").html(
-      "<h1> is finished.<br> Done in " + turnCounter + " turns</h1>"
-    );
-    if (turnCounter <= 12) {
-      $(".banner").html("<h2>Your memory is in great condition!</h2>");
-      win1.play();
-    } else if (turnCounter <= 20)
-      $(".banner").html(
-        "<h2>Your memory is in average condition! <br>Better limit drinking strong liquors!</h2>"
-      );
-    else
-      $(".banner").html(
-        "<h2>Your memory is in terrible condition! 		<br>Repeat the test or stop drinking immediately!</h2>"
-      );
+    $(".board").html("<h1> is finished.<br> Done in " + turnCounter + " turns</h1>");
 
-    $(".banner2").html(
-      '<input type="submit" class="button1" value="Repeat test" align="right" onClick="document.location.reload(true)">'
-    );
-  }
-  lock = false;
+    if (turnCounter <= 12) {
+		$(".banner").html("<h2>Your memory is in great condition!</h2>");
+		win1.play();
+    } else if (turnCounter <= 20){
+		$(".banner").html(
+			"<h2>Your memory is in average condition! <br>Better limit drinking strong liquors!</h2>"
+		);
+		loss.play();
+	}
+    else
+		$(".banner").html(
+			"<h2>Your memory is in terrible condition! 		<br>Repeat the test or stop drinking immediately!</h2>"
+		);
+
+		$(".banner2").html( '<input type="submit" class="button1" value="Repeat test" align="right" onClick="document.location.reload(true)">' );
+		loss2.play();
+  	}
+  	lock = false;
 }
 
 function restore2Cards(nr1, nr2) {
-  $("#c" + nr1).css("background-image", "url(img/karta2.png)");
-  $("#c" + nr1).addClass("card");
-  $("#c" + nr1).removeClass("cardA");
+	$("#c" + nr1).css("background-image", "url(img/karta2.png)");
+	$("#c" + nr1).addClass("card");
+	$("#c" + nr1).removeClass("cardA");
 
-  $("#c" + nr2).css("background-image", "url(img/karta2.png)");
-  $("#c" + nr2).addClass("card");
-  $("#c" + nr2).removeClass("cardA");
-  lock = false;
+	$("#c" + nr2).css("background-image", "url(img/karta2.png)");
+	$("#c" + nr2).addClass("card");
+	$("#c" + nr2).removeClass("cardA");
+	lock = false;
 }
