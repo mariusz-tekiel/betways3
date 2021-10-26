@@ -159,7 +159,7 @@ function sprawdz(nr){
 
 	//Win
 	if (pass == pass1){	
-		document.getElementById("alfabet").innerHTML = "That's it! You gave the right password: " +pass+ '</br></br><span class="reset" onclick="location.reload()">PLAY AGAING</span>';        
+		document.getElementById("alfabet").innerHTML = "That's it! You gave the right password: " + '<h3 style="color:green;">' +pass+ '</br></br><span class="reset" onclick="location.reload()">PLAY AGAING</span>';        
 		winner.play();
         document.getElementById("tree").innerHTML = '<img src="img/s10.jpg" alt="" />';		
 	}		

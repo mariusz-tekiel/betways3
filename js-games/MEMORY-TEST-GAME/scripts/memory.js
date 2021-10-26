@@ -118,26 +118,21 @@ function hide2Cards(nr1, nr2) {
   $("#c" + nr2).css("opacity", "0");
   pairsLeft--;
 
-  if (pairsLeft == 0) {
+  if (pairsLeft == 0) { 
     $(".board").html("<h1> is finished.<br> Done in " + turnCounter + " turns</h1>");
 
     if (turnCounter <= 12) {
-		$(".banner").html("<h2>Your memory is in great condition!</h2>");
-		win1.play();
+			$(".banner").html("<h2>Your memory is in great condition!</h2>");
+			win1.play();
     } else if (turnCounter <= 20){
-		$(".banner").html(
-			"<h2>Your memory is in average condition! <br>Better limit drinking strong liquors!</h2>"
-		);
-		loss.play();
-	}
-    else
-		$(".banner").html(
-			"<h2>Your memory is in terrible condition! 		<br>Repeat the test or stop drinking immediately!</h2>"
-		);
+			$(".banner").html("<h2>Your memory is in average condition! <br>Better limit drinking strong liquors!</h2>");	
+			loss.play();	
+		}else {		
+			$(".banner").html("<h2>Your memory is in terrible condition! 		<br>Repeat the test or stop drinking immediately!</h2>");
 
-		$(".banner2").html( '<input type="submit" class="button1" value="Repeat test" align="right" onClick="document.location.reload(true)">' );
-		loss2.play();
-  	}
+			$(".banner2").html( '<input type="submit" class="button1" value="Repeat test" align="right" onClick="document.location.reload(true)">' );
+			loss2.play();
+  }
   	lock = false;
 }
 
